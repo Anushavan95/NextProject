@@ -46,8 +46,8 @@ class Main extends React.Component {
         <div className="cards-items-list">
           <h2>Популярные товары и услуги</h2>
           <section className="cards-section">
-            {newCard.map((cards) => {
-              return <Card {...cards} />;
+            {newCard.map((cards, index) => {
+              return <Card {...cards} key={index} />;
             })}
           </section>
         </div>
