@@ -1,0 +1,31 @@
+footer {
+  background: #d7e1eb;
+  margin-top: 50px;
+  .footer-section {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    section {
+      padding: 40px 0px 24px 0px;
+
+      ul {
+        margin-top: 16px;
+      }
+    }
+  }
+  ul {
+    color: #28323c;
+    line-height: 150%;
+  }
+  a {
+    color: #28323c;
+  }
+  .trade-change {
+    text-align: center;
+    padding: 25px 0px;
+  }
+}
